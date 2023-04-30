@@ -1,0 +1,56 @@
+<div class="container">
+
+  <div class="heading">
+    <h1>Word Finder</h1>
+    <h2>
+      Created By
+      <a href="https://atdilakshan.github.io/" target="_blank">AT Dilakshan</a>
+    </h2>
+    <h3>This is Angular Project</h3>
+
+    <p>Angular is a popular javascript framework for Frontend development.</p>
+  </div>
+
+  <div class="box">
+
+    <div class="form">
+      <label for="word" class="form-label">Find the word: </label>
+      <input
+        type="text"
+        [(ngModel)]="findText"
+        name="word"
+        id="word"
+        placeholder="Find the word"
+        class="form-control"
+      />
+    </div>
+
+    <div class="paragraph">
+      <p appWordFinder [findText]="findText">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iusto
+        possimus quaerat soluta ullam recusandae dolores illum fugit laboriosam
+        voluptate, a placeat dolore ipsa perferendis voluptatum cupiditate odio!
+        A, fuga?
+      </p>
+      <p appWordFinder [findText]="findText">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iusto
+        possimus quaerat soluta ullam recusandae dolores illum fugit laboriosam
+        voluptate, a placeat dolore ipsa perferendis voluptatum cupiditate odio!
+        A, fuga?
+      </p>
+      <p appWordFinder [findText]="findText">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iusto
+        possimus quaerat soluta ullam recusandae dolores illum fugit laboriosam
+        voluptate, a placeat dolore ipsa perferendis voluptatum cupiditate odio!
+        A, fuga?
+      </p>
+      <p appWordFinder [findText]="findText">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iusto
+        possimus quaerat soluta ullam recusandae dolores illum fugit laboriosam
+        voluptate, a placeat dolore ipsa perferendis voluptatum cupiditate odio!
+        A, fuga?
+      </p>
+    </div>
+  </div>
+
+</div>
